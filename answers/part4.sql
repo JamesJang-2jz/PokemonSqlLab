@@ -11,4 +11,5 @@ INNER JOIN trainers ON trainers.trainerID = pokemon_trainer.trainerID
 ORDER BY pokemon_trainer.pokelevel DESC
 
 
-
+-- I am deciding to choose the strongest trainer by choosing to descend from
+-- the highest level pokemon first
